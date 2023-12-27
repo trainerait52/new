@@ -1,0 +1,38 @@
+.home{
+    height: 600px;
+    padding: 70px;
+    width: 1383px;
+}
+.title-1{
+    font-size: 56px;
+    color:black;
+    font-weight: 600;
+}
+.home{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
+ .home-shop a{
+    background-color:crimson;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+    
+}
+
+.home-shop a:hover{
+    background-color: #a52a2a;
+	color:#fff;
+
+}
+
+button:hover{
+    opacity: 0.8;
+}
+.home-p{
+    color: black;
+}
+

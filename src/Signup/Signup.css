@@ -1,0 +1,57 @@
+
+
+.banner1 {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  
+  
+    
+  }
+  .banner1 > form {
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    height: 50px;
+    margin-top: 3px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+  
+  
+  
+  }
+  pre {
+    width: 60%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  .logbtn {
+    background: #9ac79a !important;
+  border-style: none;
+  margin-top: 20px;
+  padding: 13px;
+  width: 100%;
+  border-radius: 15px;
+  }
+  p {
+    color: red;
+  }
+  
+  .head{
+     margin-right: 20vh;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .imgcontainer{
+    margin-top: 10px;
+    font-size: x-small;
+  }
+  
+ 

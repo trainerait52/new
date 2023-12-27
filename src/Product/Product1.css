@@ -1,0 +1,129 @@
+.container1{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(116, 63, 74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+    
+}
+
+.gallery{
+    flex-basis: 10%;
+    background: #241e20;
+    transform: scale(1.08);
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
+
+}
+.gallery img{
+    
+    display: block;
+    padding-top: 1px;
+    height: 580px;
+    width: 370px;
+    
+}
+
+.details{
+    flex-basis: 53%;
+    background: #fff;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
+    font-size: 20px;
+    font-weight: 500;
+    color: #777;
+    
+    
+}
+
+.details h1{
+    color: #333;
+    font-size: 25px;
+}
+
+.details h2{
+    color: #555;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.details h3{
+    color: #00d874;
+    margin-bottom: 20px;
+}
+.details form{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 350px;
+
+}
+
+.quantity-select{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+    
+}
+.quantity-select p{
+    width: 75px;
+}
+.quantity-select input{
+    background: #eee;
+    border: 0;
+    outline: 0;
+    padding:2px 2px 2px 15px ;
+    border-radius: 12px;
+    right: 250px;
+    color: #241e20;
+}
+
+.form1{
+    background:rgb(199, 122, 137);
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    opacity: 0.8;
+    
+
+}
+.cart{
+    background:green;
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px rgba(67, 249, 152, 0.25);
+    cursor: pointer;
+
+
+
+
+
+}
+.form:hover{
+    opacity: 0.8;
+}
+.cart:hover{
+    opacity: 0.8;
+}
